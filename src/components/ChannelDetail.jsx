@@ -24,14 +24,14 @@ const ChannelDetail = () => {
     
   <Box minHeight="95vh">
     <Box>
-    {/* <CardMedia
+    <CardMedia
           image='../channelBanner.png'
           alt={channelDetail?.snippet?.title}
           sx={{
             zIndex:10,height:'300px',width:'100%'
           }}
           style={{ }}
-        /> */}
+        />
       {/* <div style={{background:'linear-gradient(to right, #9bc400, #f9c5bd )',zIndex:10,height:'300px',width:'100%' }} /> */}
       <ChannelCard channelDetail={channelDetail} marginTop="-110px"/>
     </Box>
